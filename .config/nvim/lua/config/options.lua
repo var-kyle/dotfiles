@@ -2,6 +2,7 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
 vim.g.autoformat = true
+vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
 local opt = vim.opt
 
@@ -19,5 +20,5 @@ opt.title = true
 opt.wildmenu = true
 opt.showcmd = true
 opt.termguicolors = true
-opt.guicursor = "n-v-i-c: block-Cursor"
+opt.guicursor = "n-v-i-c:block-Cursor"
 
